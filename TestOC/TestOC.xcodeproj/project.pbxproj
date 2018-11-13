@@ -293,17 +293,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZTEsoft Technology Co., Ltd.";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 982DAQF6T6;
 				INFOPLIST_FILE = TestOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ztesoft.sichuan.business.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztesoft.jenkins.test.oss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = JenkinsTestProfile20181113;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -312,17 +312,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZTEsoft Technology Co., Ltd.";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 982DAQF6T6;
 				INFOPLIST_FILE = TestOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ztesoft.sichuan.business.test;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztesoft.jenkins.test.oss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE_SPECIFIER = JenkinsTestProfile20181113;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
