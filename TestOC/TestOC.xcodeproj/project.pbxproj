@@ -205,7 +205,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZTEsoft Technology Co., Ltd.";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -264,7 +264,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZTEsoft Technology Co., Ltd.";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -289,7 +289,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZTEsoft Technology Co., Ltd.";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 982DAQF6T6;
 				INFOPLIST_FILE = TestOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -298,6 +299,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ztesoft.sichuan.business.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SCZQTestProfile20180507;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -306,7 +308,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: ZTEsoft Technology Co., Ltd.";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 982DAQF6T6;
 				INFOPLIST_FILE = TestOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -315,6 +318,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ztesoft.sichuan.business.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SCZQTestProfile20180507;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
