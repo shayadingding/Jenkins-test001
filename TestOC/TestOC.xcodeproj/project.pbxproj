@@ -291,7 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: ZTEsoft Technology Co., Ltd.";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 982DAQF6T6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -310,7 +310,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: ZTEsoft Technology Co., Ltd.";
 				CODE_SIGN_STYLE = Manual;
-				DEVELOPMENT_TEAM = 982DAQF6T6;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TestOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
