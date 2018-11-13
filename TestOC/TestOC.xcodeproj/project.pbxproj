@@ -301,9 +301,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ztesoft.jenkins.test.oss;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztesoft.sichuan.business.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = JenkinsTestProfile20181113;
+				PROVISIONING_PROFILE_SPECIFIER = SCZQTestProfile20180507;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -320,9 +320,9 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ztesoft.jenkins.test.oss;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ztesoft.sichuan.business.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = JenkinsTestProfile20181113;
+				PROVISIONING_PROFILE_SPECIFIER = SCZQTestProfile20180507;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
